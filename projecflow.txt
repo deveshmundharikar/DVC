@@ -1,0 +1,20 @@
+create a repo 
+create main.py files and input your code 
+create python -m venv venv files 
+create new folder name .github and create new file name workflow and create new file name myci.yml
+
+
+create gitignore file and add .venv and .github
+ Go to your project folder
+    Create a new file named:
+      .gitignore
+
+
+Open it and add this line to ignore your virtual environment: (venv)
+    gitignore  code 
+        venv/
+        .venv/
+
+check bash command 
+    echo venv >> .gitignore
+
