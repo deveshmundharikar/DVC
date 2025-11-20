@@ -133,7 +133,8 @@ dvc commit    19 ...> step
 dvc push     20 ...> step
 
 
-
+if error 
+ code is 
 
 IMP 
 
@@ -151,7 +152,13 @@ dvc remote add -d myremote S3
 dvc push
 
 
+so now we can again modified overall main.py again and again adding yamato into my data frame 
+ python main.py
+ dvc status
+ dvc commit 
+ dvc push 
 
+ 
 
 
 

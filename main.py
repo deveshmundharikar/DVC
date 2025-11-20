@@ -15,6 +15,9 @@ print(df)
 data = {"name":"kitagawa","age":21,"city":"mumbai"}
 df.loc[len(df.index)] = data
 
+#another data add 
+data = {"name":"yamato","age":21,"city":"mumbai"}
+df.loc[len(df.index)] = data
 
 
 
