@@ -18,3 +18,94 @@ Open it and add this line to ignore your virtual environment: (venv)
 check bash command 
     echo venv >> .gitignore
 
+
+
+
+ push code into  my github 
+ git branch -M main
+ git add .
+ git commit -m "first commit"
+ git remote add origin https://github.com/deveshmundharikar/DVC.git
+ git push -u origin main
+
+
+
+## DVC IMP Step 
+
+now we can initialize dvc 
+
+pip install dvc  # intsall your terminal 
+{now we do tht "dvc init ",(create .dvcignore file and  .dvc folder)}
+
+
+## IMP Step 
+dvc init                          1 ...> step 
+create new folder   folder name   S3        2 ...> step 
+
+
+
+than you need to define your dvc s3 
+dvc remote add -d s3 s3://your-bucket-name
+terminal code :-  dvc remote add -d  myremote S3      3 ...> step 
+output :- myremote as a defualt remote 
+
+
+next step you can say dvc add data beacuse u can responsible for the data versioning 
+
+
+
+
+now we can add data 
+dvc add data/                    4 ...> step
+now ouutput is giving a error 
+ERROR:  output 'data' is already tracked by SCM (e.g. Git).                                                                    
+    You can remove it from Git, then add to DVC.
+        To stop tracking from Git:
+            git rm -r --cached 'data'
+            git commit -m "stop tracking data"
+that mean your git allready tracking data 
+so we can remove it from git 
+git rm -r --cached 'data'                        5 ...> step
+git commit -m "stop tracking data"            6 ...> step
+
+
+now git is not tracking data 
+
+
+
+
+
+next step 
+
+now this time you have not error  and anyproblem  for this code 
+dvc add data/                    7 ...> step
+now ouptut is giving a error 
+to track the changes with git, run:
+
+        git add .gitignore data.dvc     8 ...> step
+
+        git commit -m "add data.dvc"     9 ...> step
+
+
+
+now next step is check out your git status 
+git status     10 ...> step
+modified:   .dvc/config
+        modified:   projecflow.txt
+         that we can changing our git config file 
+         now we can check out our dvc status
+         dvc status     11 ...> step
+         output :- Data and pipelines are up to date.
+
+now so we can cheak out our git log -oneline 
+git log -oneline     12 ...> step
+output :-  fatal: unrecognized argument: -oneline
+
+
+
+
+
+
+
+
+
