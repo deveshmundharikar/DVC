@@ -166,5 +166,10 @@ main code for git log command
 
  so now this is so imp step for everone we need to pull back like rollback to last id
 
+git log --oneline 
+output >- 9d74f3 (HEAD -> main, origin/main) change workflow
+          9d74f3 this is id we need to back again like example 
+
+git checkout 9d74f3
 
 

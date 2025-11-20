@@ -23,6 +23,10 @@ df.loc[len(df.index)] = data
 data = {"name":"eren","age":21,"city":"mumbai"}
 df.loc[len(df.index)] = data
 
+#another data add v4
+data = {"name":"mikasa","age":21,"city":"mumbai"}
+df.loc[len(df.index)] = data
+
 
 
 #ensure the dara directory exists at the root level
