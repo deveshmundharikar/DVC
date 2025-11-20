@@ -1,6 +1,7 @@
-create a repo 
+create a repo  
 create main.py files and input your code 
 create python -m venv venv files 
+activate your venv  command is "venv\Scripts\activate"
 create new folder name .github and create new file name workflow and create new file name myci.yml
 
 
@@ -101,7 +102,20 @@ now so we can cheak out our git log -oneline
 git log -oneline     12 ...> step
 output :-  fatal: unrecognized argument: -oneline
 
+next step is
+git add . 
+git commit -m "DVC initiated with the data version1"     13 ...> step
+git push origin main     14 ...> step
 
+check out your git and dvc status 
+git status
+dvc status
+
+
+
+now dvc commit and push command 
+dvc commit    15 ...> step
+dvc push     16 ...> step
 
 
 
