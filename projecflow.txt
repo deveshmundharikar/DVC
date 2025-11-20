@@ -171,5 +171,12 @@ output >- 9d74f3 (HEAD -> main, origin/main) change workflow
           9d74f3 this is id we need to back again like example 
 
 git checkout 9d74f3
+dvc pull 
+
+
+
+ RolllBack 
+git checkout main 
+dvc pull
 
 
