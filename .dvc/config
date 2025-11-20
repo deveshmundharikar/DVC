@@ -1,5 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = s3://your-bucket-name/dvc-store
-    endpointurl = https://s3.your-region.amazonaws.com
+    url = ../S3

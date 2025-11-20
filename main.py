@@ -8,7 +8,14 @@ data = {'name':['rooknight','luffy','zoro'],
 
 df = pd.DataFrame(data)
 print(df)
+
+
  
+ #add on extra data 
+data = {"name":"kitagawa","age":21,"city":"mumbai"}
+df.loc[len(df.index)] = data
+
+
 
 
 #ensure the dara directory exists at the root level

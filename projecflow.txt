@@ -117,6 +117,38 @@ now dvc commit and push command
 dvc commit    15 ...> step
 dvc push     16 ...> step
 
+also git commit and push command 
+git add . 
+git commit -m "this is my dvc file structure change to remote directory"     17 ...> step
+git push origin main     18 ...> step
+
+okey so now we can make a lots of chnages into a main.py file  beacuse we can see dvc is working properly 
+now add on extra data into a main.py file 
+now you can add data  into a main.py file 
+check dvc status  
+output :- Data update 
+
+now we can dvc commit and push command 
+dvc commit    19 ...> step
+dvc push     20 ...> step
+
+
+
+
+IMP 
+
+1>steps to Use Local "S3" Folder as DVC Remote
+Remove the current S3 remote (if set):
+
+dvc remote remove myremote
+
+
+2>Add your local S3 folder as the remote:
+
+dvc remote add -d myremote S3
+
+3>Push your data:
+dvc push
 
 
 
