@@ -158,7 +158,13 @@ so now we can again modified overall main.py again and again adding yamato into 
  dvc commit 
  dvc push 
 
- 
+
+main code for git log command
+ git log --oneline
+
+
+
+ so now this is so imp step for everone we need to pull back like rollback to last id
 
 
 

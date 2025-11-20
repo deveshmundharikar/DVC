@@ -11,12 +11,16 @@ print(df)
 
 
  
- #add on extra data 
+ #add on extra data v1
 data = {"name":"kitagawa","age":21,"city":"mumbai"}
 df.loc[len(df.index)] = data
 
-#another data add 
+#another data add v2
 data = {"name":"yamato","age":21,"city":"mumbai"}
+df.loc[len(df.index)] = data
+
+#another data add v3
+data = {"name":"eren","age":21,"city":"mumbai"}
 df.loc[len(df.index)] = data
 
 
